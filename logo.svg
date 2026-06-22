@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 108" role="img" aria-label="ZackZack – Entrümpelung und Polsterreinigung">
+  <title>ZackZack</title>
+
+  <!-- ===== Z MARK ===== -->
+
+  <!-- Top bar – orange face -->
+  <polygon points="5,8 57,2 61,22 9,28" fill="#F7941D"/>
+  <!-- Top bar – right/depth face (darker orange) -->
+  <polygon points="57,2 68,5 72,25 61,22" fill="#C86E0A"/>
+
+  <!-- Diagonal ribbon – mid face (steel blue) -->
+  <polygon points="53,6 68,2 18,87 3,91" fill="#2E4A80"/>
+  <!-- Diagonal ribbon – right/depth face (dark navy) -->
+  <polygon points="68,2 76,5 26,91 18,87" fill="#1A2E5E"/>
+
+  <!-- Bottom bar – silver face -->
+  <polygon points="8,82 60,76 64,96 12,102" fill="#B2BBC6"/>
+  <!-- Bottom bar – right/depth face (darker silver) -->
+  <polygon points="60,76 70,80 74,100 64,96" fill="#8A939E"/>
+
+  <!-- ===== TEXT ===== -->
+
+  <!-- "ZACK" orange -->
+  <text
+    x="88" y="65"
+    font-family="'Arial Black','Arial Bold',Arial,sans-serif"
+    font-weight="900"
+    font-size="50"
+    fill="#F7941D">ZACK</text>
+
+  <!-- "ZACK" navy -->
+  <text
+    x="223" y="65"
+    font-family="'Arial Black','Arial Bold',Arial,sans-serif"
+    font-weight="900"
+    font-size="50"
+    fill="#1A2E5E">ZACK</text>
+
+  <!-- Tagline -->
+  <text
+    x="88" y="80"
+    font-family="Arial,Helvetica,sans-serif"
+    font-weight="400"
+    font-size="11.5"
+    fill="#7A8390"
+    letter-spacing="1.6">ENTRÜMPELUNG &amp; POLSTERREINIGUNG</text>
+
+  <!-- Decorative sweep lines -->
+  <path d="M88,91 Q220,87 385,83"
+        stroke="#F7941D" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <path d="M88,97 Q230,93 395,88"
+        stroke="#1A2E5E" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+</svg>

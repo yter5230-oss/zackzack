@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum – ZackZack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .legal-page { max-width: 760px; margin: 0 auto; padding: 60px 20px 100px; }
+    .legal-page h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(28px,5vw,42px); color: var(--color-navy); margin-bottom: 8px; }
+    .legal-page .breadcrumb { font-size: 14px; color: var(--color-gray-400); margin-bottom: 48px; }
+    .legal-page .breadcrumb a { color: var(--color-orange); text-decoration: underline; }
+    .legal-page h2 { font-family: var(--font-display); font-weight: 700; font-size: 20px; color: var(--color-navy); margin: 36px 0 12px; }
+    .legal-page p, .legal-page address { font-size: 15px; color: var(--color-gray-700); line-height: 1.75; margin-bottom: 12px; }
+    .legal-page a { color: var(--color-orange); text-decoration: underline; }
+    .legal-page address { font-style: normal; }
+    .legal-back { display: inline-flex; align-items: center; gap: 8px; background: var(--color-navy); color: #fff; padding: 12px 24px; border-radius: 6px; font-family: var(--font-display); font-weight: 600; font-size: 14px; margin-bottom: 48px; transition: background 150ms; }
+    .legal-back:hover { background: var(--color-navy-light); }
+    .legal-back svg { width: 16px; height: 16px; }
+  </style>
+</head>
+<body>
+
+  <header id="navbar" role="banner" style="position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 2px 16px rgba(26,46,94,0.10);">
+    <div class="nav-container">
+      <a class="nav-logo" href="index.html" aria-label="ZackZack – Zurück zur Startseite">
+        <img src="logo.png" alt="ZackZack Logo" class="nav-logo-img">
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul class="nav-links" role="list" style="display:flex;">
+          <li><a href="index.html#leistungen">Leistungen</a></li>
+          <li><a href="index.html#ueber-uns">Über uns</a></li>
+          <li><a href="index.html#preisliste">Preisliste</a></li>
+          <li><a href="index.html#kontakt" class="nav-cta-btn">Anfragen</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="legal-page">
+      <a class="legal-back" href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M19 12H5M12 5l-7 7 7 7" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Zurück zur Startseite
+      </a>
+
+      <h1>Impressum</h1>
+      <p class="breadcrumb"><a href="index.html">Startseite</a> &rsaquo; Impressum</p>
+
+      <h2>Angaben gemäß § 5 TMG</h2>
+      <address>
+        <strong>ZackZack</strong><br>
+        Entrümpelung &amp; Polsterreinigung<br>
+        [Straße und Hausnummer]<br>
+        32XXX Minden<br>
+        Nordrhein-Westfalen, Deutschland
+      </address>
+
+      <h2>Kontakt</h2>
+      <p>
+        Telefon: <a href="tel:01629483207">0162 9483207</a><br>
+        E-Mail: <a href="mailto:info@zackzack.de">info@zackzack.de</a>
+      </p>
+
+      <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+      <address>
+        [Vorname Nachname]<br>
+        [Straße und Hausnummer]<br>
+        32XXX Minden
+      </address>
+
+      <h2>Haftungsausschluss</h2>
+      <p>Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich.</p>
+
+      <h2>Urheberrecht</h2>
+      <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
+    </div>
+  </main>
+
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-bottom" style="padding:24px 0;border-top:1px solid rgba(255,255,255,0.10);">
+        <p>&copy; 2025 ZackZack. Alle Rechte vorbehalten.</p>
+        <nav aria-label="Rechtliche Links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
